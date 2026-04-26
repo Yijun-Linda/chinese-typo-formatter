@@ -1,0 +1,65 @@
+{
+  "skill_name": "chinese-typo-formatter",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下文本的排版格式：\n\n今天天气很好，我们去了公园。使用了 GPT-4o 模型来处理数据。同时也测试了 Claude 和 DeepSeek 的表现。",
+      "expected_output": "今天天气很好，我们去了公园。使用了 GPT-4o 模型来处理数据。同时也测试了 Claude 和 DeepSeek 的表现。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下 Markdown 文件的排版格式：\n\n#项目介绍\n\n这是一个使用 Python 和 JavaScript 开发的项目。代码托管在 GitHub 上。\n\n##功能特性\n\n- 用户管理\n- 数据分析\n- API 集成\n\n更多信息请访问 https://example.com",
+      "expected_output": "# 项目介绍\n\n这是一个使用 Python 和 JavaScript 开发的项目。代码托管在 GitHub 上。\n\n## 功能特性\n\n- 用户管理\n- 数据分析\n- API 集成\n\n更多信息请访问 https://example.com",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下文本的排版格式：\n\n我需要购买 5 kg 的面粉和 3 瓶酱油。预计花费 100 元。",
+      "expected_output": "我需要购买 5 kg 的面粉和 3 瓶酱油。预计花费 100 元。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下文本的排版格式：\n\n他对她说：「这是一个秘密」。然后转身离开了。",
+      "expected_output": "他对她说：「这是一个秘密」。然后转身离开了。",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下文本的排版格式：\n\n这是一段包含法语的文本：Bonjour le monde! 还有西班牙语：Hola mundo! 以及荷兰语：Hallo wereld!",
+      "expected_output": "这是一段包含法语的文本：Bonjour le monde! 还有西班牙语：Hola mundo! 以及荷兰语：Hallo wereld!",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下 Markdown 代码块的排版格式：\n\n```python\ndef hello():\n    print(\"Hello World\")\n```\n\n以下是配置示例：\n\n```yaml\nname: test\nversion: 1.0\n```",
+      "expected_output": "```python\ndef hello():\n    print(\"Hello World\")\n```\n\n以下是配置示例：\n\n```yaml\nname: test\nversion: 1.0\n```",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下包含超链接的文本：\n\n更多信息请访问[Google](https://google.com)或[Bing](https://bing.com)。也可以查看[官方文档](https://docs.example.com)。",
+      "expected_output": "更多信息请访问 [Google](https://google.com) 或 [Bing](https://bing.com)。也可以查看 [官方文档](https://docs.example.com)。",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下包含外文整句的中文文本：\n\n我昨天看了 Apple 的发布会。Tim Cook 说：「We believe in the power of technology to enrich people's lives」。这让我深受启发。",
+      "expected_output": "我昨天看了 Apple 的发布会。Tim Cook 说：「We believe in the power of technology to enrich people's lives」。这让我深受启发。",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下纯中文文本的标点：\n\n你好世界。这是一个测试。那是一个例子！这是什么？那是什么？？？",
+      "expected_output": "你好世界。这是一个测试。那是一个例子！这是什么？那是什么？",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "请根据 chinese-typo-formatter skill 修正以下混合语言的 Markdown 文档：\n\n# 研究报告\n\n## 背景\n\n本研究使用 Machine Learning 和 Deep Learning 方法。\n\n## 方法\n\n我们采用了以下工具：\n- TensorFlow\n- PyTorch\n- Hugging Face\n\n## 结论\n\n效果很好！！！",
+      "expected_output": "# 研究报告\n\n## 背景\n\n本研究使用 Machine Learning 和 Deep Learning 方法。\n\n## 方法\n\n我们采用了以下工具：\n- TensorFlow\n- PyTorch\n- Hugging Face\n\n## 结论\n\n效果很好！",
+      "files": []
+    }
+  ]
+}
