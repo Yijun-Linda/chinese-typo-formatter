@@ -38,7 +38,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-repo/chinese-typo-formatter.git
+git clone https://github.com/Yijun-Linda/chinese-typo-formatter.git
 
 cd chinese-typo-formatter
 ```
